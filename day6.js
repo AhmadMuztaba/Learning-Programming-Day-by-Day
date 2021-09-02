@@ -1,4 +1,5 @@
 //Longest Common Prefix
+//leetcode-14
 const strs= ["a","fl"];
 const prefix=(strs)=>{
     let matched="";

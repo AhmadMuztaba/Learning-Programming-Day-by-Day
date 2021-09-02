@@ -1,3 +1,4 @@
+//leetcode-35
 const number=[1,3]
 const target=2;
 let length=number.length;

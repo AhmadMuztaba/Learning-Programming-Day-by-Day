@@ -1,3 +1,4 @@
+//leetcode-27
 let num=[3,2,2,3];
 const val=2;
 let i=0;

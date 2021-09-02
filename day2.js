@@ -1,5 +1,5 @@
 /*
-
+Leet code-7
 */
 let number = 12222;
 let newnumber = '';

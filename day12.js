@@ -1,4 +1,4 @@
-//58
+//leetcode-58
 let count=0;
 let s="Hello World";
 s=s.trim();
