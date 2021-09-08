@@ -1,4 +1,6 @@
 //Leet code-67
+let a="1011111";
+let b="1011";
 let maxLength=Math.max(a.length,b.length);
 let minLength=Math.min(a.length,b.length);
 let revanswer=[];
