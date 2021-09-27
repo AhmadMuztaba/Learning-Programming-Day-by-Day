@@ -58,13 +58,15 @@ class BST{
                 }
             }
             else if(node.data>data){
-                removeNode(node.left,data)
+                node.left=removeNode(node.left,data)
+                return node;
             }
             else if(node.data<data){
-                removeNode(node.right,data);
+                mode.right=removeNode(node.right,data);
+                return node;
             }
         }
-        removeNode(this.root,val);
+        this.root=removeNode(this.root,val);
     }
 
     findMinHeight(node = this.root) {
