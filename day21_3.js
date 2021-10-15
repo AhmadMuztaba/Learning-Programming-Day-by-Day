@@ -13,8 +13,8 @@ var isSameTree = function (p, q) {
             }
             if (x && y) {
                 if (x.val == y.val) {
-                    queue.push([x.left, y.right]);
-                    queue.push([x.right, y.left]);
+                    queue.push([x.left, y.left]);
+                    queue.push([x.right, y.right]);
                 } else {
                     return false;
                 }
